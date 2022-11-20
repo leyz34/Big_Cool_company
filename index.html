@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en, ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Big Cool company</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="description" content="Описание страницы" />
+  <meta name="keywords" content="создание сайтов, верстка сайтов" />
+  <meta name="google" content="notranslate" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+</head>
+<body>
+
+<!-- HEADER -->
+
+<nav class="navbar" id="navbar">
+  <div class="container_header">
+    <div class="navbar__wrap">
+      <div class="hamb">
+        <div class="hamb__field" id="hamb">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+      <a href="#" class="logo" id="logo">Big Cool company</a>
+      <ul class="menu" id="menu">
+        <li><a class="nav_link" href="#information">О компании</a></li>
+        <li><a class="nav_link" href="#reviews">Отзывы</a></li>
+        <li><a class="nav_link" href="#team">Коллектив</a></li>
+        <li><a class="nav_link" href="#photo">Фото</a></li>
+        <li><a class="nav_link" href="#contacts">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="popup" id="popup"></div>
+
+<!-- INTRO -->
+
+<div class="intro" id="intro">
+  <h2 class="title">
+    Тут может быть интересный текст
+  </h2>
+  <a class="btn" href="contact.php">Сообщение</a>
+</div> <!-- ./intro -->
+
+<!-- INFORMATION -->
+
+<div class="container">
+  <div class="information" id="information">
+      <div class="information__item">
+          <img class="information__icon" src="image/information/info-1.png">
+          <h2 class="information__title">О компании</h2>
+          <div class="information__text">
+            Компания “Big Cool company” основанна в 2222-ом году неизвестными предпринимателями.
+  Мы специализируемся на продаже продукции, про которую никто ничего не знает, даже мы.
+  Но вы можете узнать её, купив нашу продукцию.
+          </div>
+      </div>
+
+      <div class="information__item">
+          <img class="information__icon" src="image/information/info-2.png">
+          <h2 class="information__title">Ещё надпись</h2>
+          <div class="information__text">
+            Здесь может быть объёмный текст, но я не знаю, что написать,
+            поэтому напишу множество различных слов. Напишу это дважды. Здесь может быть объёмный текст, но я не знаю, что написать,
+            поэтому напишу множество различных слов.
+
+          </div>
+      </div>
+
+  </div><!-- /.information -->
+</div><!-- /.container -->
+
+<!-- REVIEWS -->
+
+<div class="reviews" id="reviews">
+    <div class="container">
+
+        <div class="reviews__slider" id="reviewsSlider">
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="image/reviews/reviews-1.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Продукция этой компании действительно изменила мою жизнь,
+                           так как она заставляет задуматься о многом.”</div>
+                        <div class="reviews__author">Александр </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="image/reviews/reviews-2.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">"Какой-то очень положительный отзыв"</div>
+                        <div class="reviews__author">Евгения </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="image/reviews/reviews-3.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">"Что-то по северокорейски"</div>
+                        <div class="reviews__author">Ким</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -->
+</div><!-- /.reviews -->
+
+<!-- TEAM -->
+
+<div class="container">
+  <div class="team" id="team">
+    <div class="team_title">
+      <h1 class="team_title_h1">Наш коллектив</h1>
+    </div>
+    <div class="team_item">
+      <div class="team_left">
+        <img class="team_img" src="image/team/team-1.jpg" alt="xv">
+        <div class="team_name">Тональд Драмп</div>
+        <p class="team_text">Основатель компании</p>
+      </div>
+      <div class="team_right">
+        <img class="team_img" src="image/team/team-2.jpg" alt="xvvf">
+        <div class="team_name">Иван Иванов</div>
+        <p class="team_text">Очень важный человек в компании</p>
+      </div>
+    </div> <!-- /.team_item -->
+  </div> <!-- /.team -->
+</div> <!-- /.container -->
+
+<!-- PHOTO <-->
+<div class="photo" id="photo">
+  <div class="photo__item">
+      <img class="photo__icon" src="image/photo/photo-1.jpg">
+  </div>
+
+  <div class="photo__item">
+      <img class="photo__icon" src="image/photo/photo-2.jpg">
+  </div>
+
+  <div class="photo__item">
+      <img class="photo__icon" src="image/photo/photo-3.jpg">
+  </div>
+
+  <div class="photo__item">
+      <img class="photo__icon" src="image/photo/photo-4.jpg">
+  </div>
+
+  <div class="photo__item">
+      <img class="photo__icon" src="image/photo/photo-5.jpg">
+  </div>
+
+  <div class="photo__item">
+      <img class="photo__icon" src="image/photo/photo-6.jpg">
+  </div>
+</div> <!-- /.photo -->
+
+<!-- CONTACTS -->
+
+<div class="contacts" id="contacts">
+
+  <div class="contacts_title">
+    <img class="phone_img-1" src="image/phone.svg" alt="dfgdb">
+    <h2 class="contacts_title_text"> Контакты </h2>
+    <img class="phone_img-2" src="image/phone.svg" alt="dgdgdg">
+
+  <div class="number">
+    <div class="number_left">
+      <div class="numbers_name">
+        Иван Иванов
+      </div>
+      <div class="numbers_number">
+        +79787777777
+      </div>
+    </div> <!-- /.numbers_left -->
+
+    <div class="number_right">
+      <div class="numbers_name">
+          Тональд Драмп
+      </div>
+      <div class="numbers_number">
+        +79780000000
+      </div>
+    </div> <!-- /.numbers_right -->
+
+  </div> <!-- /.number -->
+
+  <div class="company_name_container"></div>
+    <div class="company_name">
+      Big Cool company
+    </div>
+  </div>
+
+</div> <!-- /.contacts -->
+
+
+
+<!-- Javascript -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>
